@@ -1,5 +1,4 @@
-export default function PostsList(props) {
-  const { title, body } = props;
+export default function PostsList({ title, body }) {
   return (
     <div className="mx-10 mt-3 py-3 rounded px-3 bg-slate-500">
       <h1 className="capitalize text-lg">
