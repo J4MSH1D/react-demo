@@ -1,7 +1,7 @@
 export default function About() {
     return (
-        <div className="min-h-screen">
-            <h1>This is About Page</h1>
+        <div className="min-h-screen flex items-center justify-center text-3xl">
+            This is About Page
         </div>
     )
 }
