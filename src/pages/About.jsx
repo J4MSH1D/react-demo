@@ -1,5 +1,7 @@
 export default function About() {
     return (
-        <h1>This is About Page</h1>
+        <div className="min-h-screen">
+            <h1>This is About Page</h1>
+        </div>
     )
 }

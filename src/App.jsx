@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar'
+import Footer from "./components/Footer"
 import Router from './routes/Router'
 
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App overflow-x-hidden relative w-screen text-white min-h-screen bg-gray-700">
       <Navbar />
       <Router />
+      <Footer />
     </div>
   )
 }
